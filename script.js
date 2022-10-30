@@ -20,10 +20,10 @@ recipeCloseBtn.addEventListener('click', () => {
 const toggleNightColor = () => {
     document.body.classList.toggle('dark-theme')
     if (document.body.classList.contains('dark-theme')) {
-        toggleNight.src = 'images/sun.png';
+        toggleNight.src = './sun.png';
     }
     else {
-        toggleNight.src = 'images/moon.png'
+        toggleNight.src = './moon.png'
     }
 }
 
