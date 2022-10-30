@@ -37,8 +37,9 @@ body {
     position: absolute;
     background: var(--primary-color);
     right: 1vw;
+    top: 1vh;
     cursor: pointer;
-    width: 2vw;
+    width: 5vw;
 }
 
 /*  */
